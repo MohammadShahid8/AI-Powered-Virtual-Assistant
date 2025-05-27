@@ -38,13 +38,14 @@ An intelligent, voice-enabled **Virtual Assistant** built using **React** and in
 > _Add screenshots or a link to a live demo here_  
 > Example: [Live Demo](https://your-live-demo-link.com)
 
----
+![Screenshot (10)](https://github.com/user-attachments/assets/534410ae-a26d-4a76-9b0e-560d26667e94)
+
 
 ## 📦 Installation
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/virtual-ai-assistant.git
+git clone https://github.com/MohammadShahid8/AI-Powered-Virtual-Assistant.git
 
 # Navigate to the project directory
 cd virtual-ai-assistant
