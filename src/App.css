@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: 'Arial', sans-serif;
+  background-color: black; 
+}
+
+.main {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #fff;
+}
+
+#avaID {
+  height: 75%;
+  width: auto;
+  margin-bottom: 20px;
+  object-fit: cover; 
+}
+
+span {
+  background: linear-gradient(to right, rgba(75, 192, 75, 0.415), rgb(59, 59, 197));
+  font-size: 3vmax;
+  background-clip: text;
+  color: transparent;
+  text-align: center;
+  margin-top: -20px; 
+}
+
+button {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+  color: #00bcd4;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(40, 83, 121);
+  box-shadow: 2px 2px 50px ;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+  margin-top: 30px; 
+}
+
+button:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+button:active {
+  transform: translateY(0);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+  .main {
+    flex-direction: column;
+  }
+
+  button {
+    width: 120px;
+    height: 60px;
+    font-size: 1.2rem;
+    margin-top: 40px; 
+  }
+
+  span {
+    font-size: 4vmax;
+    margin-top: -15px; 
+  }
+
+  #avaID {
+    height: 95%; 
+    width: auto;
+    margin-bottom: 20px;
+    object-fit: cover;
+  }
+  
+}
+
+#voice{
+  width: 100px;
+}
+
+p{
+  font-size: 1.2vmax;
+  color: green;
+}
+
+.response{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap:10px
+}
+
