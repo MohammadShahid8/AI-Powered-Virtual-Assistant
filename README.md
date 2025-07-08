@@ -36,7 +36,7 @@ An intelligent, voice-enabled **Virtual Assistant** built using **React** and in
 ## 📸 Demo
 
 > _Add screenshots or a link to a live demo here_  
-> Example: [Live Demo](https://your-live-demo-link.com)
+> Example: [Live Demo](https://shahidai.netlify.app/)
 
 ![Screenshot (10)](https://github.com/user-attachments/assets/534410ae-a26d-4a76-9b0e-560d26667e94)
 
